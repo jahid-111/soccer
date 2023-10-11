@@ -1,7 +1,7 @@
 body {
-    background-color: bisque;
+    background-color: #d0d3eb;
     font-family: 'Poppins', sans-serif;
-
+    margin: auto
 }
 
 /* -------------------- */
@@ -53,13 +53,22 @@ header {
 }
 
 .head-text a {
-    background: tomato;
+    background: #da2323;
     padding: 10px 20px;
     border-radius: 7px;
+    color: blanchedalmond;
+    text-decoration: none;
+}
+
+.head-img {
+    width: 100%;
+    height: 100%;
+
 }
 
 .head-img img {
-    height: 480px;
+    height: 100%;
+    width: 100%;
 }
 
 /* 
@@ -85,19 +94,33 @@ main {}
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    border-radius: 10px;
+}
+
+.match-info {
+    background: beige;
+    height: 15%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
 }
 
 .left a {
-    background: wheat;
-    padding: 14px 20px;
-    border-radius: 10px;
-    color: black;
-    font-size: 16px;
-    font-weight: 600;
+    background: #1d1540;
+    height: 100%;
+    width: 100%;
     text-decoration: none;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    color: floralwhite;
 }
-
-
 
 
 
@@ -113,7 +136,7 @@ main {}
 
 
 .right {
-    background-color: #e3e1e9;
+    /* background-color: rgb(227, 225, 233); */
     height: auto;
     width: auto;
 }
@@ -126,10 +149,9 @@ main {}
     width: 100%;
 }
 
-.feed {}
 
 .feed {
-    border: 1px solid;
+    /* border: 1px solid; */
     border-radius: 10px;
 }
 
@@ -149,7 +171,7 @@ main {}
 }
 
 .feed-info a {
-    background: #fffcf6;
+    background: #D0D3F4;
     border-radius: 5px;
     padding: 4px 13px;
     color: black;
@@ -197,9 +219,9 @@ main {}
 
 footer {
     background-color: #212126;
-
-    height: 350px;
-    margin-top: 20px;
+    height: auto;
+    padding: 31px;
+    margin-top: 50px;
 }
 
 .footer-head {}
@@ -212,7 +234,7 @@ footer {
 }
 
 
-.footer-nav {}
+
 
 .footer-nav {
     margin-top: 60px;
@@ -223,14 +245,24 @@ footer {
     align-items: center;
 }
 
+.footer-nav a {
+    color: bisque;
+    text-decoration: none;
+    padding: 4px;
+    font-weight: 500;
+}
+
 .connect-social {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 15px;
 }
 
-.connect-social h2 {}
+.connect-social h2 {
+    color: brown;
+}
 
 .social {
     display: flex;
