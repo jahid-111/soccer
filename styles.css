@@ -1,0 +1,165 @@
+body {
+    background-color: bisque;
+}
+
+/* -------------------- */
+
+/* UTLITIES  */
+.container {
+    width: 1090px;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+/* --------------- */
+
+
+header {
+    height: 520px;
+}
+
+.head-banner {
+    background-color: #212126;
+    display: flex;
+    padding: 40px 40px 0px 40px;
+    border-radius: 20px;
+}
+
+.head-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.head-text h1 {
+    font-size: 65px;
+    color: cornsilk;
+}
+
+
+.head-text p {
+    font-size: 1.1em;
+    font-weight: 500;
+    color: honeydew;
+    margin-top: -20px;
+}
+
+.head-text a {
+    background: tomato;
+    padding: 10px 20px;
+    border-radius: 7px;
+}
+
+.head-img img {
+    height: 480px;
+}
+
+/* 
+            MAIN START 
+ */
+
+
+
+main {}
+
+.main-content {
+    display: flex;
+    flex-direction: row;
+    margin-top: 55px;
+    gap: 25px;
+}
+
+.left {
+    background-color: blueviolet;
+    height: 300px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.left a {
+    background: wheat;
+    padding: 14px 20px;
+    border-radius: 10px;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.right {
+    background-color: chocolate;
+    height: auto;
+    width: 70%;
+}
+
+.news-feed {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.feed {}
+
+.feed-img {}
+
+.feed-img img {
+    height: 140px;
+    width: 250px;
+}
+
+.feed-info a {
+    background: wheat;
+    border-radius: 5px;
+    padding: 6px 13px;
+    color: black;
+    text-decoration: none;
+}
+
+.feed-info p {
+    font-size: 1em;
+}
+
+.time-update {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.time {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+    gap: 7px;
+}
+
+.comments {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+    gap: 7px;
+}
